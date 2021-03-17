@@ -1,5 +1,10 @@
 name: Lean-x86开发版0.1
 
+# 编辑触发    
+  push:
+    branches: 
+      - master
+
 on:
   repository_dispatch:
   workflow_dispatch:
