@@ -1,4 +1,4 @@
-name: Lean-x86开发版
+name: Lean-x86开发版0.1
 
 on:
   repository_dispatch:
