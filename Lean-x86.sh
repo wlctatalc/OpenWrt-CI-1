@@ -9,7 +9,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 rm -rf package/lean/luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
 git clone https://github.com/riverscn/openwrt-iptvhelper.git package/luci-app-iptvhelper
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 rm -rf package/lean/luci-app-dockerman
